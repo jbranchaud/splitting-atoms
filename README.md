@@ -1,6 +1,6 @@
 # Splitting Atoms
 
-a community-built guide to the [Atom](https://atom.io) editor
+a community-built guide to hacking on the [Atom](https://atom.io) editor
 
 > A hackable text editor for the 21st Century
 
