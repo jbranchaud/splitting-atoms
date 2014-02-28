@@ -23,3 +23,30 @@ advanced topics such as configuring your environment.
 Check out the [Atom API](http://atom.io/docs/api) for more detailed
 documentation on the APIs that are available to those developing packages or
 hacking on existing ones.
+
+## Packages
+
+### Installing Packages
+
+There are two main approaches to installing packages. You can easily do it
+from inside Atom from the Package management tab in settings. For those still
+inclined to using the command-line, the Atom Package Manager binary, `apm`, can
+also be used to install packages as well.
+
+#### Installing from Atom
+
+
+
+#### Installing with apm
+
+
+### Searching for Packages
+
+
+### Managing Packages
+
+Atom gives you insight into the load-time that each package is adding to the
+overall performance of the editor. Based on this information, you can browse
+your packages enabling and disabling them as you see fit.
+
+### Uninstalling Packages
