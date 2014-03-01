@@ -60,6 +60,14 @@ those that have used NPM or Bower, it is similar to your `node_components` or
 ### Uninstalling Packages
 
 
+## Splitting Atoms' Goals
+
+- Develop supplementary guides, documentation, and tutorials for Atom
+- Organize the guides, documentation, and tutorials into an Atom developers
+  guide
+- Publish the Atom developers guide as a website
+- Publish the Atom developers guide as a PDF/eBook
+
 ## License
 
 Everything here is licensed under the MIT license.
