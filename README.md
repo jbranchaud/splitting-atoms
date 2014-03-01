@@ -17,6 +17,9 @@ To find out more about Atom from the team itself, read
 
 There are a number of ways to contribute to this project:
 
+- What are the sections, topics, and guides that are missing? There should
+still be lots of them, so open up some issues and send pull requests!
+
 - If you are excited about Atom and have already started digging into it and
 hacking on it, then you are just the person we need to contribute to this
 community-built, community-driven guide. Write about your experience tinkering
