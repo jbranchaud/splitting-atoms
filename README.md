@@ -58,3 +58,8 @@ those that have used NPM or Bower, it is similar to your `node_components` or
 `bower_components` directories.
 
 ### Uninstalling Packages
+
+
+## License
+
+Everything here is licensed under the MIT license.
