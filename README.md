@@ -13,6 +13,23 @@ To find out more about Atom from the team itself, read
 [Introducing Atom](http://blog.atom.io/2014/02/26/introducing-atom.html) and
 [The Nucleus of Atom](http://blog.atom.io/2014/02/26/the-nucleus-of-atom.html).
 
+## Contributing to Splitting Atoms
+
+There are a number of ways to contribute to this project:
+
+- If you are excited about Atom and have already started digging into it and
+hacking on it, then you are just the person we need to contribute to this
+community-built, community-driven guide. Write about your experience tinkering
+with part of Atom and help refine and clarify what is already written here.
+Send pull requests and open issues.
+
+- If something about Atom completely perplexes you or you find parts of the
+official Atom documentation that are completely lacking, open an issue so that
+we can look into it and address it in the guide.
+
+- Create a badass Splitting Atom logo that can eventually be displayed in our
+README, on our website, and in an eBook.
+
 ## Getting Started
 
 You can start by going through
