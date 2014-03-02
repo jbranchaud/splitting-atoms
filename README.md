@@ -55,7 +55,14 @@ also be used to install packages as well.
 
 #### Installing from Atom
 
+From the Atom editor menus, navigate to *Atom* -> *Preferences*.
 
+From there, open the *Packages* tab and have at it.
+
+The other way to get to this menu is to take advantage of command palette.
+Press `Cmd-shift-P` to bring up the command palette and then start typing,
+*packages*. You should see the *Settings View: Install Packages* option show
+up in the palette.
 
 #### Installing with apm
 
