@@ -4,6 +4,13 @@ A collection of community-built guides on developing different kinds of
 packages for Atom. These guides will show you how to take advantage of
 various parts of Atom's API.
 
+The Atom docs offer a guide on
+[creating your first package](https://atom.io/docs/latest/your-first-package),
+a package that replaces the selected text with ascii art.
+
+The Atom docs also offer a more general guide to
+[creating a package](https://atom.io/docs/latest/creating-a-package).
+
 ## Creating a new package guide
 
 To create a new package guide, simply fork this repository, create a new
