@@ -81,11 +81,28 @@ Uninstall the matching package from your packages directory.
 
 ### Creating, managing, and publishing packages
 
-`apm clean`
+#### `apm clean`
 
-`apm dedupe`
+Deletes all packages in the `node_modules` folder that are not referenced as a dependency in the `package.json` file.
 
-`apm dev`
+##### Options:
+- `--help`, `-h`  Print this usage message
+
+#### `apm dedupe`
+
+Reduce duplication in the `node_modules` folder in the current directory.
+
+##### Options:
+- `--help`, `-h`  Print this usage message
+
+#### `apm dev`
+
+Clone the given package's Git repository to `~/github/<package_name>`, install its dependencies, and link it for development to `~/.atom/packages/dev/<package_name>`.
+
+Once this command completes you can open a dev window from atom using `cmd-shift-o` to run the package out of the newly cloned repository.
+
+##### Options:
+- `--help`, `-h`  Print this usage message
 
 `apm develop (alias of dev)`
 
