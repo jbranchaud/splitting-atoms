@@ -33,6 +33,8 @@ we can look into it and address it in the guide.
 - Create a badass Splitting Atom logo that can eventually be displayed in our
 README, on our website, and in an eBook.
 
+*Further instructions can be found in CONTRIBUTING.md.*
+
 ## Getting Started
 
 You can start by going through
