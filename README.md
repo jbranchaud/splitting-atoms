@@ -51,7 +51,8 @@ hacking on existing ones.
 There are two main approaches to installing packages. You can easily do it
 from inside Atom from the Package management tab in settings. For those still
 inclined to using the command-line, the Atom Package Manager binary, `apm`, can
-also be used to install packages as well.
+also be used to install packages as well. This utilises the Node Package
+Manager, `npm`, behind the scenes. 
 
 #### Installing from Atom
 
@@ -65,10 +66,17 @@ Press `Cmd-shift-P` to bring up the command palette and then start typing,
 up in the palette.
 
 #### Installing with apm
-
+On the command line, type `apm install package-name`.
 
 ### Searching for Packages
-
+You can search for packages from *Atom* -> *Preferences* -> *Packages*,
+on [the main Atom site(http://atom.io/packages), or from `apm`.
+To search for packages on `apm`, type `apm search package-name` in the command
+line. One thing to keep in mind when searching for packages is that some
+package authors prefix their Atom packages with *atom-*package-name, others
+don't. There doesn't seem to be a consistent standard, so it's probably best to
+leave the *atom-* prefix off your search, unless you know the package you're
+looking for starts with it.
 
 ### Managing Packages
 
