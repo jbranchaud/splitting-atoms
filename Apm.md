@@ -39,7 +39,8 @@ Once you have configured your `.apmrc` to your heart's content, save the file.
 
 ### Installing, removing and configuring packages
 #### `apm featured`
-List the current packages featured on [Atom.io]()
+List the Atom packages/themes that are currently featured in the [Atom.io]() registry. 
+
 ##### Options:
 - `--themes`, view themes only
 - `--compatible 0.61.0`, view packages compatible with a certain Atom version
@@ -49,10 +50,16 @@ Install the given Atom package. If you don't specify a package name, Atom will
 attempt to install all the dependencies listed in the `package.json` files
 into a directory called `node_modules` under your current working directory.
 
+##### Options:
+- `--silent`, `-s`  Set the npm log level to silent
+- `--quiet`, `-q`   Set the npm log level to warn
+
 #### `apm list`
 List all of the installed packages. Includes all packages included with Atom.
+
 ##### Options:
 - `--themes`, view themes only
+
 ##### Aliases:
 - `apm ls`
 
@@ -67,25 +74,43 @@ View information about a single package published on the Atom.io registry.
 
 #### `apm uninstall <package_name>`
 Uninstall the matching package from your packages directory.
+
 ##### Options:
 - `--dev` `-d`, uninstall from your dev packages directory.
 - `--hard`, uninstall from your dev packages *and* regular packages directory.
 
 ### Creating, managing, and publishing packages
-apm clean
-apm dedupe
-apm dev
-apm develop (alias of dev)
-apm init
-apm link
-apm linked (alias of links)
-apm links
-apm ln (alias of links)
-apm lns (alias of links)
-apm login
-apm publish
-apm rebuild
-apm test
-apm unlink
-apm unpublish
-apm update
+
+`apm clean`
+
+`apm dedupe`
+
+`apm dev`
+
+`apm develop (alias of dev)`
+
+`apm init`
+
+`apm link`
+
+`apm linked (alias of links)`
+
+`apm links`
+
+`apm ln (alias of links)`
+
+`apm lns (alias of links)`
+
+`apm login`
+
+`apm publish`
+
+`apm rebuild`
+
+`apm test`
+
+`apm unlink`
+
+`apm unpublish`
+
+`apm update`
