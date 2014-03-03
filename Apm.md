@@ -95,13 +95,32 @@ Clone the given package's Git repository to `~/github/<package_name>`, install i
 
 Once this command completes you can open a dev window from atom using `cmd-shift-o` to run the package out of the newly cloned repository.
 
-`apm develop (alias of dev)`
+#### `apm develop`
 
-`apm init`
+Same as `apm dev`
 
-`apm link`
+#### `apm init`
 
-`apm linked (alias of links)`
+Generates code scaffolding for either a theme or package depending on option selected.
+
+##### Options:
+- `--package`, `-p`  Generates a basic package
+- `--theme`, `-t`    Generates a basic theme
+- `--convert`, `-c`  Path or URL to TextMate bundle/theme to convert
+
+#### `apm link`
+
+Create a symlink for the package in `~/.atom/packages`. The package in the current working directory is linked if no path is given.
+
+Run `apm links` to view all the currently linked packages.
+
+##### Options:
+- `--help`, `-h`  Print this usage message
+- `--dev`, `-d`   Link to ~/.atom/dev/packages
+
+#### `apm linked`
+
+Same as `apm link`
 
 `apm links`
 
