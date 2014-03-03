@@ -70,7 +70,7 @@ On the command line, type `apm install package-name`.
 
 ### Searching for Packages
 You can search for packages from *Atom* -> *Preferences* -> *Packages*,
-on [the main Atom site(http://atom.io/packages), or from `apm`.
+on [the main Atom site](http://atom.io/packages), or from `apm`.
 To search for packages on `apm`, type `apm search package-name` in the command
 line. One thing to keep in mind when searching for packages is that some
 package authors prefix their Atom packages with *atom-*package-name, others
