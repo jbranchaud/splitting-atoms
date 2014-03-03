@@ -115,29 +115,73 @@ Create a symlink for the package in `~/.atom/packages`. The package in the curre
 Run `apm links` to view all the currently linked packages.
 
 ##### Options:
-- `--help`, `-h`  Print this usage message
-- `--dev`, `-d`   Link to ~/.atom/dev/packages
+- `--dev`, `-d`   Link to `~/.atom/dev/packages`
 
 #### `apm linked`
 
 Same as `apm link`
 
-`apm links`
+#### `apm links`
 
-`apm ln (alias of links)`
+List all of the symlinked atom packages in `~/.atom/packages` and `~/.atom/dev/packages`.
 
-`apm lns (alias of links)`
+#### `apm ln`
 
-`apm login`
+Same as `apm links`
 
-`apm publish`
+#### `apm lns`
 
-`apm rebuild`
+Same as `apm links`
 
-`apm test`
+#### `apm login`
 
-`apm unlink`
+Create and save a GitHub OAuth2 token to the keychain. This token will be used to identify yourself when publishing packages to atom.io.
 
-`apm unpublish`
+##### Options:
+- `--user`, `-u`  GitHub username or email
 
-`apm update`
+#### `apm publish`
+
+Publish a new version of the package in the current working directory.
+
+If a new version or version increment is specified, then a new Git tag is created and the `package.json` file is updated with that new version before it is published to the apm registry. The HEAD branch and the new tag are pushed up to the remote repository automatically using this option.
+
+Run `apm featured` to see all the featured packages or `apm view <packagename>` to see information about your package after you have published it.
+
+##### Options:
+- `--tag`, `-t`   Specify a tag to publish
+
+#### `apm rebuild`
+
+Rebuild all the modules currently installed in the `node_modules` folder in the current working directory.
+
+#### `apm test`
+
+Runs the package's tests contained within the spec directory (relative to the current working directory).
+
+##### Options:
+- `--path`, `-p`  Path to atom command
+
+#### `apm unlink`
+
+Delete the symlink in `~/.atom/packages` for the package. The package in the current working directory is unlinked if no path is given.
+
+Run `apm links` to view all the currently linked packages.
+
+##### Options:
+- `--dev`, `-d` Unlink package from `~/.atom/dev/packages`
+- `--hard` Unlink package from `~/.atom/packages` and `~/.atom/dev/packages`
+- `--all`, `-a`   Unlink all packages in `~/.atom/packagea` and `~/.atom/dev/packages`
+
+#### `apm unpublish`
+
+Remove a published package from the atom.io registry. The package in the current working directory will be unpublished if no package name is specified.
+
+##### Options:
+- `--force`, `-f`  Do not prompt for confirmation.
+
+#### `apm update`
+
+Run `apm clean` followed by `apm install`.
+
+See `apm help clean` and `apm help install` for more information.
