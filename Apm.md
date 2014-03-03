@@ -85,15 +85,9 @@ Uninstall the matching package from your packages directory.
 
 Deletes all packages in the `node_modules` folder that are not referenced as a dependency in the `package.json` file.
 
-##### Options:
-- `--help`, `-h`  Print this usage message
-
 #### `apm dedupe`
 
 Reduce duplication in the `node_modules` folder in the current directory.
-
-##### Options:
-- `--help`, `-h`  Print this usage message
 
 #### `apm dev`
 
@@ -101,33 +95,93 @@ Clone the given package's Git repository to `~/github/<package_name>`, install i
 
 Once this command completes you can open a dev window from atom using `cmd-shift-o` to run the package out of the newly cloned repository.
 
+#### `apm develop`
+
+Same as `apm dev`
+
+#### `apm init`
+
+Generates code scaffolding for either a theme or package depending on option selected.
+
 ##### Options:
-- `--help`, `-h`  Print this usage message
+- `--package`, `-p`  Generates a basic package
+- `--theme`, `-t`    Generates a basic theme
+- `--convert`, `-c`  Path or URL to TextMate bundle/theme to convert
 
-`apm develop (alias of dev)`
+#### `apm link`
 
-`apm init`
+Create a symlink for the package in `~/.atom/packages`. The package in the current working directory is linked if no path is given.
 
-`apm link`
+Run `apm links` to view all the currently linked packages.
 
-`apm linked (alias of links)`
+##### Options:
+- `--dev`, `-d`   Link to `~/.atom/dev/packages`
 
-`apm links`
+#### `apm linked`
 
-`apm ln (alias of links)`
+Same as `apm link`
 
-`apm lns (alias of links)`
+#### `apm links`
 
-`apm login`
+List all of the symlinked atom packages in `~/.atom/packages` and `~/.atom/dev/packages`.
 
-`apm publish`
+#### `apm ln`
 
-`apm rebuild`
+Same as `apm links`
 
-`apm test`
+#### `apm lns`
 
-`apm unlink`
+Same as `apm links`
 
-`apm unpublish`
+#### `apm login`
 
-`apm update`
+Create and save a GitHub OAuth2 token to the keychain. This token will be used to identify yourself when publishing packages to atom.io.
+
+##### Options:
+- `--user`, `-u`  GitHub username or email
+
+#### `apm publish`
+
+Publish a new version of the package in the current working directory.
+
+If a new version or version increment is specified, then a new Git tag is created and the `package.json` file is updated with that new version before it is published to the apm registry. The HEAD branch and the new tag are pushed up to the remote repository automatically using this option.
+
+Run `apm featured` to see all the featured packages or `apm view <packagename>` to see information about your package after you have published it.
+
+##### Options:
+- `--tag`, `-t`   Specify a tag to publish
+
+#### `apm rebuild`
+
+Rebuild all the modules currently installed in the `node_modules` folder in the current working directory.
+
+#### `apm test`
+
+Runs the package's tests contained within the spec directory (relative to the current working directory).
+
+##### Options:
+- `--path`, `-p`  Path to atom command
+
+#### `apm unlink`
+
+Delete the symlink in `~/.atom/packages` for the package. The package in the current working directory is unlinked if no path is given.
+
+Run `apm links` to view all the currently linked packages.
+
+##### Options:
+- `--dev`, `-d` Unlink package from `~/.atom/dev/packages`
+- `--hard` Unlink package from `~/.atom/packages` and `~/.atom/dev/packages`
+- `--all`, `-a`   Unlink all packages in `~/.atom/packagea` and `~/.atom/dev/packages`
+
+#### `apm unpublish`
+
+Remove a published package from the atom.io registry. The package in the current working directory will be unpublished if no package name is specified.
+
+##### Options:
+- `--force`, `-f`  Do not prompt for confirmation.
+
+#### `apm update`
+
+Run `apm clean` followed by `apm install`.
+
+See `apm help clean` and `apm help install` for more information.
