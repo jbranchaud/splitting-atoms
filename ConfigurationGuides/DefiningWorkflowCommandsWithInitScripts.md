@@ -1,6 +1,6 @@
 # Defining Workflow Commands With Init Scripts
 
-*this content of this post originally appeared in
+*the content in this guide originally appeared in
 [this blog post](http://joshbranchaud.com/blog/2014/03/02/Exploring-The-Power-Of-Atom-Init-Scripts.html).*
 
 [Jason Rudolph](https://github.com/jasonrudolph) recently
