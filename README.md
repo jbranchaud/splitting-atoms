@@ -91,7 +91,7 @@ your packages enabling and disabling them as you see fit.
 All the Atom configuration files, styles, packages, etc. are stored in an
 Atom dot directory, namely `~/.atom`. Inside that directory, you can find
 another directory named `packages` which contains all of your packages. For
-those that have used NPM or Bower, it is similar to your `node_components` or
+those that have used NPM or Bower, it is similar to your `node_modules` or
 `bower_components` directories.
 
 ### Uninstalling Packages
