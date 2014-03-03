@@ -18,9 +18,9 @@ it and found the `atom_package_manager` directory in
 `/Applications/Atom.app/Contents/Resources/app/apm/node_modules/atom-package-manager`.
 If you place an `.apmrc` file in this directory, it will be picked up by `apm`.
 The syntax for `.apmrc` is as far as I can tell identical to `.npmrc` files.
-[https://www.npmjs.org/doc/files/npmrc.html](`npm`) have more details.
+[the npm site](https://www.npmjs.org/doc/files/npmrc.html) has more details.
 To see what kind of configuration options are available, again, check out
-[https://www.npmjs.org/doc/misc/npm-config.html](`npm`)'s stellar docs.
+[npm's stellar docs](https://www.npmjs.org/doc/misc/npm-config.html).
 I can't guarantee that all of these will work, but the registry option does.
 
 So, since using the European registry mirror [npmjs.eu]() is typically
