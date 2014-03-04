@@ -26,7 +26,7 @@ No. Atom's core (nucleus) will not be open-sourced but all packages and themes w
 
 Atom will be competitively priced compared to similar editors, which typically range between $30 and $100.
 
-[Source](https://atom.io/faq)
+[Source](https://atom.io/faq), [original discussion](http://discuss.atom.io/t/any-idea-of-atoms-price/40/6)
 
 ## What is the technology behind Atom?
 
