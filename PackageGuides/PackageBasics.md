@@ -11,6 +11,10 @@ This document describes all the parts of a package in an attempt to make it easi
 - [Node](http://nodejs.org) - Backend/Processes
 - [Jasmine](http://jasmine.github.io/) - Testing
 
+Note: Though CoffeeScript and CSON are the defaults in package development,
+JavaScript and JSON can easily be used in their place. Pick the language that
+works best for you.
+
 ##Package Structure
 
 * /keymaps/ - `Key Mapping Directory`
