@@ -11,21 +11,34 @@ This document describes all the parts of a package in an attempt to make it easi
 - [Node](http://nodejs.org) - Backend/Processes
 - [Jasmine](http://jasmine.github.io/) - Testing
 
+Note: Though CoffeeScript and CSON are the defaults in package development,
+JavaScript and JSON can easily be used in their place. Pick the language that
+works best for you.
+
 ##Package Structure
 
-* /keymaps/ - `Key Mapping Directory`
- * your-package.cson - `Key Mappings`
-* /lib/ - `Source Folder`
- * your-package-view.coffee - `Package View Source`
- * your-package.coffee - `Package Source`
-* /menus/ - `Menu Mapping Directory`
- * your-package.cson - `Menu Mappings`
-* /spec/ - `Test Directory`
- * your-package-spec.coffee - `Main Source Test`
- * your-package-view-spec.coffee - `Main View Test`
-* /stylesheets/ - `Style Directory`
- * your-package.less - `Package Styles
-* package.json - `Package Information`
+    .
+    ├── keymaps/ # Key Mapping Directory
+    |   └── your-package.cson # Key Mappings
+    |
+    ├── lib/ # Source Folder
+    |   ├── your-package-view.coffee # Package View Source
+    |   └── your-package.coffee # Package Source
+    |
+    ├── menus/ # Menu Mapping Directory
+    |   └── your-package.cson # Menu Mapping
+    |
+    ├── spec/ # Test Directory
+    |   ├── your-package-spec.coffee # Main Source Test
+    |   └── your-package-view-spec.coffee # Main View Test
+    |
+    ├── stylesheets/ # Style Directory
+    |   └── your-package.less # Package Styles
+    |
+    └── package.json # Package Information
+
+Note: In addition to what is included above, you can also add `grammars/` and
+`snippets/` directories if your package requires it.
 
 ##Getting Started
 
