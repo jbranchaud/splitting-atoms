@@ -37,6 +37,9 @@ works best for you.
     |
     └── package.json # Package Information
 
+Note: In addition to what is included above, you can also add `grammars/` and
+`snippets/` directories if your package requires it.
+
 ##Getting Started
 
 You can generate a new package with the above structure by opening Atom, keying `cmd+shift+p` and selecting `Package Generator - Generate Package`
