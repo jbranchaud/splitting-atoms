@@ -106,6 +106,22 @@ those that have used NPM or Bower, it is similar to your `node_modules` or
 
 ### Uninstalling Packages
 
+Atom uses a clone of `npm` called `apm` as it's package manager. (See [list of `apm` command](https://github.com/jbranchaud/splitting-atoms/blob/master/Apm.md).)
+
+You can install non-bundled packages by going to the Packages section on left hand side of the Settings view (`cmd-,`) or by using the comman `apm list`.
+
+#### Uninstall a package using `apm`
+
+To uninstall a package using `apm`, simply run the command `apm uninstall <package name>`. This will remove tha package from your `~/.atom/packages/` directory.
+
+Here's a sample run of the command:
+
+    karan:splitting-atoms$ apm uninstall toggle-quotes
+    Uninstalling toggle-quotes ✓
+
+#### Uninstall a package using Atom
+
+All third-party packages can also be uninstalled from within Atom. Simply go to Settings (`cmd-,`). In the settings sidebar, click on a package you want to uninstall and simply click on the "Uninstall" button. This will remove tha package from your `~/.atom/packages/` directory and take you to the main packages page.
 
 ## Splitting Atoms' Goals
 
