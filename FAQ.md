@@ -13,6 +13,7 @@ There are a few ways to get an invite.
 ## What is Atom's IRC chanel?
 
 Atom: ##atom
+
 Invites: ##atom-invitations
 
 ## Will Atom core be open-sourced?
