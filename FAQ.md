@@ -1,19 +1,25 @@
 # Frequently Asked Questions
 
+An extension to the [official FAQ](https://atom.io/faq).
+
 ## How can I get an invite to the Atom beta?
 
 There are a couple ways of getting an invite.
  - Invites can be requested on [http://www.atom.io](atom.io) by entering your email address. However, t may take some time to receive your invite
  - The first users get 3 invites that they can give to friends. So ask friends with invites for one.
- - Hang out on Twitter, IRC, or other social networks.
+ - Hang out on Twitter, IRC, or other social networks. Many people are willing to give out invites.
 
 ## Will Atom core be open-sourced?
 
 No. Atom's core (nucleus) packages will not be open-sourced but Atom's non-core packages will be open-sourced under the MIT licence.
 
+[Source](https://atom.io/faq)
+
 ## What will the price of Atom be?
 
 Atom will be competitively priced compared to similar editors, which typically range between $30 and $100.
+
+[Source](https://atom.io/faq)
 
 ## What is the technology behind Atom?
 
