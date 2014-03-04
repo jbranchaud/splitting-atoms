@@ -1,4 +1,4 @@
-#More information on APM, the Atom Package Manager.
+# More information on APM, the Atom Package Manager.
 
 APM is built on Node Package Manager, or `npm`. At first glance they are almost
 identical, sharing most of the core commands to manage and publish packages.
@@ -37,13 +37,20 @@ Once you have configured your `.apmrc` to your heart's content, save the file.
 
 ## APM command-line options
 
+### Configuring APM
+##### Options:
+ - `--version`, `-v` Print the apm version
+ - `--help`, `-h` Print usage message
+ - `--color` Enable colored output `[boolean] [default: true]`
+
 ### Installing, removing and configuring packages
 #### `apm featured`
-List the Atom packages/themes that are currently featured in the [Atom.io]() registry. 
+List the Atom packages/themes that are currently featured in the [Atom.io]() registry.
 
 ##### Options:
-- `--themes`, view themes only
-- `--compatible 0.61.0`, view packages compatible with a certain Atom version
+- `--themes`, `-t` Only list themes `[boolean]`
+- `--compatible`, `-c`, Only list packages/themes compatitle with this Atom version `[string]`
+- `--json` Output featured packages as JSON array `[boolean]`
 
 #### `apm install <package_name>`
 Install the given Atom package. If you don't specify a package name, Atom will
@@ -51,14 +58,14 @@ attempt to install all the dependencies listed in the `package.json` files
 into a directory called `node_modules` under your current working directory.
 
 ##### Options:
-- `--silent`, `-s`  Set the npm log level to silent
-- `--quiet`, `-q`   Set the npm log level to warn
+- `--silent`, `-s` Set the npm log level to silent `[boolean]`
+- `--quiet`, `-q` Set the npm log level to warn `[boolean]`
 
 #### `apm list`
 List all of the installed packages. Includes all packages included with Atom.
 
 ##### Options:
-- `--themes`, view themes only
+- `--themes` Only list themes `[boolean]`
 
 ##### Aliases:
 - `apm ls`
@@ -66,8 +73,14 @@ List all of the installed packages. Includes all packages included with Atom.
 #### `apm search <package_name>`
 Searches matching packages published on the Atom.io registry.
 
+##### Options:
+- `--json` Output matching packages as JSON array `[boolean]`
+
 #### `apm view`
 View information about a single package published on the Atom.io registry.
+
+##### Options:
+- `--json` Output featured packages as JSON array `[boolean]`
 
 ##### Aliases:
 - `apm show`
@@ -76,8 +89,8 @@ View information about a single package published on the Atom.io registry.
 Uninstall the matching package from your packages directory.
 
 ##### Options:
-- `--dev` `-d`, uninstall from your dev packages directory.
-- `--hard`, uninstall from your dev packages *and* regular packages directory.
+- `--dev` `-d`, Uninstall from your dev packages directory. `[boolean]`
+- `--hard`, Uninstall from your dev packages *and* regular packages directory. `[boolean]`
 
 ### Creating, managing, and publishing packages
 
@@ -104,9 +117,9 @@ Same as `apm dev`
 Generates code scaffolding for either a theme or package depending on option selected.
 
 ##### Options:
-- `--package`, `-p`  Generates a basic package
-- `--theme`, `-t`    Generates a basic theme
-- `--convert`, `-c`  Path or URL to TextMate bundle/theme to convert
+- `--package`, `-p` Generates a basic package `[string]`
+- `--theme`, `-t` Generates a basic theme `[string]`
+- `--convert`, `-c` Path or URL to TextMate bundle/theme to convert `[string]`
 
 #### `apm link`
 
@@ -115,7 +128,7 @@ Create a symlink for the package in `~/.atom/packages`. The package in the curre
 Run `apm links` to view all the currently linked packages.
 
 ##### Options:
-- `--dev`, `-d`   Link to `~/.atom/dev/packages`
+- `--dev`, `-d` Link to `~/.atom/dev/packages` `[boolean]`
 
 #### `apm linked`
 
@@ -138,7 +151,7 @@ Same as `apm links`
 Create and save a GitHub OAuth2 token to the keychain. This token will be used to identify yourself when publishing packages to atom.io.
 
 ##### Options:
-- `--user`, `-u`  GitHub username or email
+- `--user`, `-u` GitHub username or email `[string]`
 
 #### `apm publish`
 
@@ -149,7 +162,7 @@ If a new version or version increment is specified, then a new Git tag is create
 Run `apm featured` to see all the featured packages or `apm view <packagename>` to see information about your package after you have published it.
 
 ##### Options:
-- `--tag`, `-t`   Specify a tag to publish
+- `--tag`, `-t` Specify a tag to publish `[string]`
 
 #### `apm rebuild`
 
@@ -160,7 +173,7 @@ Rebuild all the modules currently installed in the `node_modules` folder in the 
 Runs the package's tests contained within the spec directory (relative to the current working directory).
 
 ##### Options:
-- `--path`, `-p`  Path to atom command
+- `--path`, `-p` Path to atom command `[string]`
 
 #### `apm unlink`
 
@@ -169,16 +182,16 @@ Delete the symlink in `~/.atom/packages` for the package. The package in the cur
 Run `apm links` to view all the currently linked packages.
 
 ##### Options:
-- `--dev`, `-d` Unlink package from `~/.atom/dev/packages`
-- `--hard` Unlink package from `~/.atom/packages` and `~/.atom/dev/packages`
-- `--all`, `-a`   Unlink all packages in `~/.atom/packagea` and `~/.atom/dev/packages`
+- `--dev`, `-d` Unlink package from `~/.atom/dev/packages` `[boolean]`
+- `--hard` Unlink package from `~/.atom/packages` and `~/.atom/dev/packages` `[boolean]`
+- `--all`, `-a` Unlink all packages in `~/.atom/packagea` and `~/.atom/dev/packages` `[boolean]`
 
 #### `apm unpublish`
 
 Remove a published package from the atom.io registry. The package in the current working directory will be unpublished if no package name is specified.
 
 ##### Options:
-- `--force`, `-f`  Do not prompt for confirmation.
+- `--force`, `-f` Do not prompt for confirmation. `[boolean]`
 
 #### `apm update`
 
