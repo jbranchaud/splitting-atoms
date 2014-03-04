@@ -18,15 +18,33 @@ Invites: ##atom-invitations
 
 ## Will Atom core be open-sourced?
 
-No. Atom's core (nucleus) will not be open-sourced but all packages and themes will be open-sourced under the MIT licence.
+The [official Atom FAQ](https://atom.io/faq) says,
 
-[Source](https://atom.io/faq)
+> We have not finalized licensing on Atom's core (nucleus?),
+> but we're aiming for a common ground between fully-closed and fully-open.
+
+And then goes on to assure that any non-core packages that are developed by
+GitHub will be released under the MIT license.
+
+There is some earlier discussion around this question from the
+[Atom discourse page](http://discuss.atom.io/t/why-is-atom-closed-source/82)
+in which Mojombo (or Tom if you prefer) responds:
+
+> Atom won't be closed source, but it won't be open source either. It will be
+> somewhere inbetween, making it easy for us to charge for Atom while still
+> making the source available under a restrictive license so you can see how
+> everything works. We haven't finalized exactly how this will work yet.
+> We will have full details ready for the official launch.
+
+In response to a follow-up question, Mojombo goes on to affirm that,
+[yes](http://discuss.atom.io/t/why-is-atom-closed-source/82/13),
+anyone will be able to submit pull requests to Atom core.
 
 ## What will the price of Atom be?
 
 Atom will be competitively priced compared to similar editors, which typically range between $30 and $100.
 
-[Source](https://atom.io/faq), [original discussion](http://discuss.atom.io/t/any-idea-of-atoms-price/40/6)
+[Source](https://atom.io/faq), [original discussion](http://discuss.atom.io/t/any-idea-of-atoms-price/40)
 
 ## What is the technology behind Atom?
 
