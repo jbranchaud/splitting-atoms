@@ -17,19 +17,25 @@ works best for you.
 
 ##Package Structure
 
-* /keymaps/ - `Key Mapping Directory`
- * your-package.cson - `Key Mappings`
-* /lib/ - `Source Folder`
- * your-package-view.coffee - `Package View Source`
- * your-package.coffee - `Package Source`
-* /menus/ - `Menu Mapping Directory`
- * your-package.cson - `Menu Mappings`
-* /spec/ - `Test Directory`
- * your-package-spec.coffee - `Main Source Test`
- * your-package-view-spec.coffee - `Main View Test`
-* /stylesheets/ - `Style Directory`
- * your-package.less - `Package Styles
-* package.json - `Package Information`
+    .
+    ├── keymaps/ # Key Mapping Directory
+    |   └── your-package.cson # Key Mappings
+    |
+    ├── lib/ # Source Folder
+    |   ├── your-package-view.coffee # Package View Source
+    |   └── your-package.coffee # Package Source
+    |
+    ├── menus/ # Menu Mapping Directory
+    |   └── your-package.cson # Menu Mapping
+    |
+    ├── spec/ # Test Directory
+    |   ├── your-package-spec.coffee # Main Source Test
+    |   └── your-package-view-spec.coffee # Main View Test
+    |
+    ├── stylesheets/ # Style Directory
+    |   └── your-package.less # Package Styles
+    |
+    └── package.json # Package Information
 
 ##Getting Started
 
