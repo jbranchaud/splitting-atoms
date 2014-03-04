@@ -108,7 +108,7 @@ those that have used NPM or Bower, it is similar to your `node_modules` or
 
 Atom uses a clone of `npm` called `apm` as it's package manager. (See [list of `apm` command](https://github.com/jbranchaud/splitting-atoms/blob/master/Apm.md).)
 
-You can install non-bundled packages by going to the Packages section on left hand side of the Settings view (`cmd-,`) or by using the comman `apm list`.
+You can see all installed non-bundled packages by going to the Packages section on left hand side of the Settings view (`cmd-,`) or by using the comman `apm list`.
 
 #### Uninstall a package using `apm`
 
