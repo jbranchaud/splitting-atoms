@@ -116,7 +116,7 @@ To uninstall a package using `apm`, simply run the command `apm uninstall <packa
 
 Here's a sample run of the command:
 
-    karan:splitting-atoms$ apm uninstall toggle-quotes
+    $ apm uninstall toggle-quotes
     Uninstalling toggle-quotes ✓
 
 #### Uninstall a package using Atom
