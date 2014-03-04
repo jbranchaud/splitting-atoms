@@ -40,4 +40,5 @@ drop it in the `ConfigurationGuides` directory, and submit a pull request.
 Did you come up with a configuration, set of keybindings, and collection of
 packages that make development with a particular language or technology
 better or more efficient? Write a guide describing and defending your
-workflow.
+workflow. One guide per markdown file, drop it in the `WorkflowGuides`
+directory, and submit a pull request.

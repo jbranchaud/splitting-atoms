@@ -32,7 +32,7 @@ Send pull requests and open issues. Specific areas you can help
   - Write a guide for defining killer configuration settings. These belong in the
   `ConfigurationGuides` directory.
   - Write a guide describing a particular workflow for development with a given
-  language or technology.
+  language or technology. These belong in the `WorkflowGuides` directory.
 
 - If something about Atom completely perplexes you or you find parts of the
 official Atom documentation that are completely lacking, open an issue so that
