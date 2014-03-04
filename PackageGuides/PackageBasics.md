@@ -1,8 +1,8 @@
-#Package Basics
+# Package Basics
 
 This document describes all the parts of a package in an attempt to make it easier to develop your own.
 
-##Atom Technology Stack
+## Atom Technology Stack
 
 - [CoffeeScript](http://www.coffeescript.org) - Logic
 - [SpacePen](http://www.github.com/atom/space-pen) - Templating
@@ -15,7 +15,7 @@ Note: Though CoffeeScript and CSON are the defaults in package development,
 JavaScript and JSON can easily be used in their place. Pick the language that
 works best for you.
 
-##Package Structure
+## Package Structure
 
     .
     ├── keymaps/ # Key Mapping Directory
@@ -40,13 +40,14 @@ works best for you.
 Note: In addition to what is included above, you can also add `grammars/` and
 `snippets/` directories if your package requires it.
 
-##Getting Started
+## Getting Started
 
 You can generate a new package with the above structure by opening Atom, keying `cmd+shift+p` and selecting `Package Generator - Generate Package`
 
 This will create a project, link it, and open it in Atom.
 
-##Workflow Tips
+## Workflow Tips
+
 Use `cmd+opt+i` to open DevTools
 
 In DevTools, open the console and type `atom` and hit enter.
@@ -59,7 +60,7 @@ This will help you structure your package and implement views. It is also wildly
 
 If you want to get a look at the classes you are extending/using, open up `Atom.app/Contents/Resources/src/` and have a look around.
 
-##Common Tasks
+## Common Tasks
 
 #### Getting the current editor
 
