@@ -24,13 +24,21 @@ still be lots of them, so open up some issues and send pull requests!
 hacking on it, then you are just the person we need to contribute to this
 community-built, community-driven guide. Write about your experience tinkering
 with part of Atom and help refine and clarify what is already written here.
-Send pull requests and open issues.
+Send pull requests and open issues. Specific areas you can help
+  - Write a guide on building a package, especially if it involves an interesting
+  part of the Atom API or uses a 3rd party library in an innovative way. These
+  belong on the `PackageGuides` directory.
+  - Write a guide on building a theme. These belong in the `ThemeGuides` directory.
+  - Write a guide for defining killer configuration settings. These belong in the
+  `ConfigurationGuides` directory.
+  - Write a guide describing a particular workflow for development with a given
+  language or technology. These belong in the `WorkflowGuides` directory.
 
 - If something about Atom completely perplexes you or you find parts of the
 official Atom documentation that are completely lacking, open an issue so that
 we can look into it and address it in the guide.
 
-- Create a badass Splitting Atom logo that can eventually be displayed in our
+- Create a badass Splitting Atoms logo that can eventually be displayed in our
 README, on our website, and in an eBook.
 
 *Further instructions can be found in CONTRIBUTING.md.*
@@ -54,7 +62,7 @@ There are two main approaches to installing packages. You can easily do it
 from inside Atom from the Package management tab in settings. For those still
 inclined to using the command-line, the Atom Package Manager binary, `apm`, can
 also be used to install packages as well. This utilises the Node Package
-Manager, `npm`, behind the scenes. 
+Manager, `npm`, behind the scenes.
 
 #### Installing from Atom
 
@@ -68,9 +76,11 @@ Press `Cmd-shift-P` to bring up the command palette and then start typing,
 up in the palette.
 
 #### Installing with apm
+
 On the command line, type `apm install package-name`.
 
 ### Searching for Packages
+
 You can search for packages from *Atom* -> *Preferences* -> *Packages*,
 on [the main Atom site](http://atom.io/packages), or from `apm`.
 To search for packages on `apm`, type `apm search package-name` in the command
