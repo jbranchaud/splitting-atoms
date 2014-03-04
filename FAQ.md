@@ -56,13 +56,13 @@ Not any time soon. The Atom team is focusing on fixing bugs and having a Mac-onl
 
 [Source](http://discuss.atom.io/t/timeline-on-windows-and-linux-betas/66/50)
 
-## Why Coffeescript?
+## Why CoffeeScript?
 
-Using coffeescript and CSON is a matter of preference and readability as well as compatability with EC6.
+Using CoffeeScript and CSON is a matter of preference and readability as well as compatibility with EC6.
 
 [See the discussion](http://discuss.atom.io/t/why-coffeescript/131)
 
-## Is Coffeescript required for developing plugins?
+## Is CoffeeScript required for developing plugins?
 
 JavaScript and JSON can be used in Atom packages, there is no requirement to write a single line of CoffeeScript or CSON to make an Atom package.
 
