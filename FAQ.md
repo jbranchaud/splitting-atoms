@@ -69,3 +69,13 @@ JavaScript and JSON can be used in Atom packages, there is no requirement to wri
 In Atom any `.coffee`/`.cson`/`.less` files can always be `.js`/`.json`/`.css` files instead.
 
 [Source](http://discuss.atom.io/t/is-coffeescript-required-for-developing-plug-ins/65/4)
+
+## Are the userId hashes in my config.cson file sensitive data?
+
+Both the *metrics* and *exception-reporting* packages store a `userId` value
+in the `config.cson` file. Neither of these reveal sensitive data, so you can
+feel free to commit your `config.cson` file as part of your
+[dotfiles](http://dotfiles.github.io/) configuration.
+
+[metrics source](https://github.com/atom/metrics/issues/18),
+[exception-reporting source](https://github.com/atom/exception-reporting/issues/7)
