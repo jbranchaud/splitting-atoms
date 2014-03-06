@@ -79,3 +79,14 @@ feel free to commit your `config.cson` file as part of your
 
 [metrics source](https://github.com/atom/metrics/issues/18),
 [exception-reporting source](https://github.com/atom/exception-reporting/issues/7)
+
+## How can I open multiple projects in the same Atom window?
+
+For now, this isn't supported. Each Atom window seems to be dedicated to a
+single directory.
+
+In the meantime, there is
+[a workaround that involves using symbolic links](http://joshbranchaud.com/blog/2014/03/06/Multiple-Projects-In-Atom-Workaround.html).
+
+Do you know of another solution or workaround? Open an issue and tell us
+about it.
