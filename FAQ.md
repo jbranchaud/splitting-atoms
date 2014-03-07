@@ -69,3 +69,24 @@ JavaScript and JSON can be used in Atom packages, there is no requirement to wri
 In Atom any `.coffee`/`.cson`/`.less` files can always be `.js`/`.json`/`.css` files instead.
 
 [Source](http://discuss.atom.io/t/is-coffeescript-required-for-developing-plug-ins/65/4)
+
+## Are the userId hashes in my config.cson file sensitive data?
+
+Both the *metrics* and *exception-reporting* packages store a `userId` value
+in the `config.cson` file. Neither of these reveal sensitive data, so you can
+feel free to commit your `config.cson` file as part of your
+[dotfiles](http://dotfiles.github.io/) configuration.
+
+[metrics source](https://github.com/atom/metrics/issues/18),
+[exception-reporting source](https://github.com/atom/exception-reporting/issues/7)
+
+## How can I open multiple projects in the same Atom window?
+
+For now, this isn't supported. Each Atom window seems to be dedicated to a
+single directory.
+
+In the meantime, there is
+[a workaround that involves using symbolic links](http://joshbranchaud.com/blog/2014/03/06/Multiple-Projects-In-Atom-Workaround.html).
+
+Do you know of another solution or workaround? Open an issue and tell us
+about it.
