@@ -19,6 +19,15 @@ your Atom configuration including:
 
 ## `init.coffee`
 
+### Keep your scripts organized
+
+Whether you keep all your scripts in the `init` file or separate them out
+into files, always keep them organized. They should be organized by the
+language or technology for which they are used. Use comments to make clear
+the purpose of a set of scripts. This will make it easier for you to
+maintain them and will make them more accessible to others who may want to
+use parts of your `init.coffee` (assuming you make it publicly accessible).
+
 ### Maintain a clean, modular init file
 
 In order to maintain an `init.coffee` file that is easy to read and
