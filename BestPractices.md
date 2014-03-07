@@ -9,7 +9,7 @@ collections of best practices for the following more specific topics:
 
 - [Best Practices When Developing Packages](PackageGuides/BestPractices.md)
 - [Best Practices When Developing Themes](ThemeGuides/BestPractices.md)
-- [Best Practices When Configuring Atom](ConfigurationGuides/BestPractices/md)
+- [Best Practices When Configuring Atom](ConfigurationGuides/BestPractices.md)
 
 Only if a best practice doesn't belong in one of the above categories should
 it be included below.
