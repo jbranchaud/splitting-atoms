@@ -40,7 +40,7 @@ html {
   }
 }
 @media (min-width: 58rem) {
-  html {
+  .content {
     font-size: 20px;
   }
 }
@@ -54,20 +54,22 @@ html {
  */
 
 .sidebar {
+  font-size: 20px;
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  overflow: auto;
 }
 @media (min-width: 48rem) {
   .sidebar {
+    font-size: 16px;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 18rem;
     text-align: left;
-    overflow: auto;
   }
 }
 
@@ -132,7 +134,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48rem) {
   .content {
-    max-width: 38rem;
+/*    max-width: 38rem;*/
     margin-left: 20rem;
     margin-right: 2rem;
   }
