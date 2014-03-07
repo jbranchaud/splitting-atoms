@@ -41,7 +41,7 @@ we can look into it and address it in the guide.
 - Create a badass Splitting Atoms logo that can eventually be displayed in our
 README, on our website, and in an eBook.
 
-*Further instructions can be found in CONTRIBUTING.md.*
+*Further instructions can be found in [contributing guide](CONTRIBUTING.md).*
 
 ## Getting Started
 
