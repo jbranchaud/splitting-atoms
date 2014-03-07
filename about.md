@@ -4,27 +4,30 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Atom is in beta so it is rough around the edges, but also changing and improving rapidly. This guide will do its best to keep up. If content is missing or outdated, then lend a hand and write a section or a guide.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Splitting Atoms is a community-built, community-driven guide to hacking on the
+[Atom](https://atom.io) editor.
 
-There are currently two themes built on Poole:
+Atom is
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+> A hackable text editor for the 21st Century
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+> At GitHub, we're building the text editor we've always wanted. A tool you can customize to do anything, but also use productively on the first day without ever touching a config file. Atom is modern, approachable, and hackable to the core. We can't wait to see what you build with it.
 
-## Setup
+The aim of Splitting Atoms is to build a collection of useful guides, best
+practices, and tips and tricks for hacking on Atom. We want to make it easy for anyone to sit down in front of Atom and start developing interesting things
+right away. We also want to help push Atom to its limits.
 
-Some fun facts about the setup of this project include:
+## Who is behind this?
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Splitting Atoms is built and maintained by [Josh Branchaud](http://joshbranchaud.com) and many [awesome contributors](https://github.com/jbranchaud/splitting-atoms/graphs/contributors).
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+*Splitting Atoms is not affiliated with GitHub or the Atom editor.*
 
-Thanks for reading!
+## More about Atom
+
+To find out more about Atom from the team itself, read
+[Introducing Atom](http://blog.atom.io/2014/02/26/introducing-atom.html) and
+[The Nucleus of Atom](http://blog.atom.io/2014/02/26/the-nucleus-of-atom.html).
