@@ -6,19 +6,19 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Splitting Atoms
+tagline:          'a guide to hacking on Atom'
+description:      'a community-built, community-driven guide to hacking on the <a href="https://atom.io">Atom</a> editor'
+url:              https://jbranchaud.github.io/splitting-atoms
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Josh Branchaud'
+  url:            https://twitter.com/jbrancha
 
 paginate:         5
 
 # Custom vars
-version:          2.0.0
+version:          0.0.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/jbranchaud/splitting-atoms
