@@ -12,7 +12,18 @@ of becoming a more efficient developer.
 **TODO: List each default keybinding, describe what each does, and give
 helpful use cases for each.**
 
-...
+## Atom Specific Defaults
+
+### `Cmd-shift-P`
+
+Toggles the command palette which gives you access to all Atom commands.
+This is arguably one of the most important keybindings in Atom.
+
+### ...
+
+## Defaults Adopted From Sublime Text
+
+### ...
 
 ## Defining Your Own Keybindings
 
