@@ -67,12 +67,16 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    overflow: auto;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+}
+
+.sidebar-content {
 }
 
 /* About section */
