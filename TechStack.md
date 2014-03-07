@@ -21,7 +21,12 @@ Atom is built from ground up using extendible web technologies. Atom is a specia
 
 ### [Less](http://www.lesscss.org) - Styling
 
-...
+Although it would be best to add styles in any type of language, *Less* is used for Atom for two primary reasons (according to [nathansobo](http://discuss.atom.io/users/nathansobo)):
+
+ - SASS is a favorite here at GitHub, but it's implemented in Ruby, and we wanted to ship with a default format that had no external dependencies.
+ - LESS is used by bootstrap which we leaned on as the foundation of our styles. Opinions vary, but bootstrap has a lot of traction and GitHub employs one of its developers, so we thought it was a reasonable choice.
+
+[Source](http://discuss.atom.io/t/sass-instead-of-less/221/12)
 
 ### [CSON](https://github.com/bevry/cson) - Configuration
 
