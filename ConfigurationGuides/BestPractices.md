@@ -11,7 +11,12 @@ your Atom configuration including:
 
 ## General Configuration Best Practices
 
-...
+### Publish your configuration files
+
+You should open source your configuration files (e.g. as part of your
+[dotfiles](http://dotfiles.github.io/)) because like anything else that is
+open source, it can allow others to improve themselves and their code and
+allow others to improve you and your code.
 
 ## `config.cson`
 
