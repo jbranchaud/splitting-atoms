@@ -20,5 +20,6 @@ paginate:         5
 # Custom vars
 version:          0.0.0
 
+twitter:          https://twitter.com/Splitting_Atoms
 github:
   repo:           https://github.com/jbranchaud/splitting-atoms
