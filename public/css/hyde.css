@@ -97,9 +97,10 @@ html {
 .sidebar-nav-item {
   display: block;
 }
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
+.sidebar a:hover,
+.sidebar a:focus {
+  text-decoration: none;
+  color: #515151;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
