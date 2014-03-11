@@ -1,0 +1,16 @@
+/* index promo */
+@media (min-width: 58rem) {
+  .promo {
+    text-align: center;
+  }
+}
+@media (min-width: 58rem) {
+  .promo-item {
+    display: inline-block;
+    width: 30%;
+    padding: 2.5%;
+  }
+}
+.promo-title {
+  font-size: 1.5rem;
+}
