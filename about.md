@@ -3,10 +3,6 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Atom is in beta so it is rough around the edges, but also changing and improving rapidly. This guide will do its best to keep up. If content is missing or outdated, then lend a hand and write a section or a guide.
-</p>
-
 Splitting Atoms is a community-built, community-driven guide to hacking on the
 [Atom](https://atom.io) editor.
 
