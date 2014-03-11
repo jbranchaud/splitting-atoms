@@ -3,7 +3,7 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        pretty
+#permalink:        pretty
 
 # Setup
 title:            Splitting Atoms
