@@ -26,3 +26,4 @@ version:          0.0.0
 twitter:          https://twitter.com/Splitting_Atoms
 github:
   repo:           https://github.com/jbranchaud/splitting-atoms
+rss:              http://jbranchaud.github.io/splitting-atoms/atom.xml
