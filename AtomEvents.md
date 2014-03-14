@@ -1,4 +1,7 @@
-# Atom Events
+---
+layout: page
+title : Atom Events
+---
 
 Within your packages, you have the ability to subscribe to various events
 so that your package can react to those events being triggered. For example,

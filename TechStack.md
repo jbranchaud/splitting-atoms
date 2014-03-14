@@ -1,4 +1,7 @@
-Atom Technology Stack
+---
+layout: page
+title: Atom Technology Stack
+---
 ==========
 
 Atom is built from ground up using extendible web technologies. Atom is a specialized variant of Chromium - each window is a locally-rendered web page. How do they do it? Here's what's Atom is built of:

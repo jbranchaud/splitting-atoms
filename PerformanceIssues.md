@@ -1,4 +1,6 @@
-# Performance Issues
+---
+layout: page
+title: Performance Issues
 
 A discussion of performance issues related to Atom and how they might affect
 someone developing an Atom package.

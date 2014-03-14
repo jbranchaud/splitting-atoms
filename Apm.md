@@ -1,3 +1,7 @@
+---
+layout: page
+title: APM
+---
 # More information on APM, the Atom Package Manager.
 
 APM is built on Node Package Manager, or `npm`. At first glance they are almost

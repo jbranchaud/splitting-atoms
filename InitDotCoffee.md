@@ -1,3 +1,7 @@
+---
+layout: page
+title: init.coffe
+---
 # Useful, Clever, and Popular init.coffee Scripts
 
 *This is a list of community-curated init.coffee scripts, please share your

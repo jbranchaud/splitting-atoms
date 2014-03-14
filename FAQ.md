@@ -1,4 +1,7 @@
-# Frequently Asked Questions
+---
+layout: page
+title: Frequently Asked Questions
+---
 
 An extension to the [official FAQ](https://atom.io/faq).
 

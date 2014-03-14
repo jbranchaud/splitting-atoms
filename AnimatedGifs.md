@@ -1,3 +1,7 @@
+---
+layout: page
+title: Animated Gifs
+---
 # GIFCasting
 
 Making animated GIFs to demonstrate your incredible Atom package or reproduce a

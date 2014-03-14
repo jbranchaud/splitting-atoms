@@ -1,4 +1,6 @@
-# Customizing Atom with LESS
+---
+layout: page
+title: Customizing Atom with LESS
 
 What you see inside Atom is rendered very much in the same way that any
 web site is rendered. Thus, stylesheets play a big part in what you are
