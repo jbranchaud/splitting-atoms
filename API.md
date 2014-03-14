@@ -1,4 +1,7 @@
-# Atom API
+---
+layout: page
+title: Atom API
+---
 
 Detailed documentation can be found at [https://atom.io/docs/api/](https://atom.io/docs/api/)
 

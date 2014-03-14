@@ -1,4 +1,7 @@
-# Customizing Atom With init.coffee
+---
+layout: page
+title: Customizing Atom With init.coffee
+---
 
 Your Atom dotfile (`~/.atom`) comes with an initialization file (`init.coffee`)
 that can be used for all sorts of programmatic customizations to the editor.

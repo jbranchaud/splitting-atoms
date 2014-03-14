@@ -1,4 +1,7 @@
-# Default Keybindings
+---
+layout: page
+title: Default Keybindings
+---
 
 An introduction to the default keybindings that ship with Atom.
 

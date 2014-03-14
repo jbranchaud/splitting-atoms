@@ -1,4 +1,7 @@
-# Testing Packages
+---
+layout: page
+title: Testing Packages
+---
 
 A guide to testing the Atom packages that you build.
 

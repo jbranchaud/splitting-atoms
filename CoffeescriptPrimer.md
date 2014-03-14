@@ -1,4 +1,7 @@
-# Coffeescript Primer
+---
+layout: page
+title:  Coffeescript Primer
+---
 
 A quick primer on coffeescript for those that want to develop a Atom
 package, but don't have much experience with coffeescript. This guide
