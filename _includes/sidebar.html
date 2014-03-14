@@ -12,22 +12,34 @@
       <li class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}">
         <a href="{{ site.baseurl }}/blog/">Blog</a>
       </li>
+      <li class="sidebar-nav-item{% if page.title == "About" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/about.html">About</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Introducing Atom" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/introducingatom.html">Introducing Atom</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Configuring Atom" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/configuring-atom.html">Configuring Atom</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Developing Packages" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/developing-packages.html">Developing Packages</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Developing Themes" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/developing-themes.html">Developing Themes</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Best Practices" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/bestpractices.html">Best Practices</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Tips and Tricks" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/tipsandtricks.html">Tips and Tricks</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Advanced Topics" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/placeholder.html">Advanced Topics</a>
+      </li>
+      <li class="sidebar-nav-item{% if page.title == "Guide Listing" %} active{% endif %}">
+        <a href="{{ site.baseurl }}/placeholder.html">Guide Listing</a>
+      </li>
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
     </ul>
 
     <a href="{{ site.github.repo }}"><icon class="fa fa-github fa-lg"></a>
