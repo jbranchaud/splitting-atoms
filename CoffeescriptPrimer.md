@@ -10,4 +10,5 @@ aims to give you enough of a foundation to hack on existing packages and
 create your own simple packages.
 
 As a reference and for a quick overview of the CoffeeScript syntax, see
-[coffeescript.org](http://coffeescript.org/).
+[coffeescript.org](http://coffeescript.org/). From there you can also
+check out the [CoffeeScript Cookbook](http://coffeescriptcookbook.com/).
