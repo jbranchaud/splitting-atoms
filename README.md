@@ -9,6 +9,9 @@ a community-built guide to hacking on the [Atom](https://atom.io) editor
 > without ever touching a config file. Atom is modern, approachable, and
 > hackable to the core. We can't wait to see what you build with it.
 
+It is still a work in progress, but you should check out the
+[Splitting Atoms guide](http://jbranchaud.github.io/splitting-atoms/).
+
 To find out more about Atom from the team itself, read
 [Introducing Atom](http://blog.atom.io/2014/02/26/introducing-atom.html) and
 [The Nucleus of Atom](http://blog.atom.io/2014/02/26/the-nucleus-of-atom.html).
