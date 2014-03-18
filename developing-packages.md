@@ -19,6 +19,14 @@ Mapping a combination of keys to a certain piece of functionality in your packag
 
 ... // assuming a command attached to some feature, explain how to assign a keybinding to that command.
 
+#### A Basic Keybinding
+
+... // something simple like `ctrl-shift-M`
+
+#### A Key-Chord Based Keybinding
+
+... // a key-chord like `cmd-k` followed by any number of keys
+
 ### Keybinding Conventions
 
 There is currently no official convention enforced or even recommended for assigning keybindings within your package. There are, however, some guidelines that will suffice as conventions for now. You should follow these guidelines when assigning keybindings.
