@@ -17,11 +17,27 @@ Mapping a combination of keys to a certain piece of functionality in your packag
 
 ### Adding A Keybinding For A Command
 
-...
+... // assuming a command attached to some feature, explain how to assign a keybinding to that command.
 
 ### Keybinding Conventions
 
-...
+There is currently no official convention enforced or even recommended for assigning keybindings within your package. There are, however, some guidelines that will suffice as conventions for now. You should follow these guidelines when assigning keybindings.
+
+- The `cmd` key should only be used in keybindings for Atom's core functionality.
+- The combination of `cmd-alt-ctrl` in a keybinding usually signifies that it is related to developing Atom or Atom packages.
+- The combination of `cmd-k` makes a key-chord that, followed by any of a number of keys, will trigger a variety of core Atom functionality.
+
+When it comes to assigning bindings to your own packages:
+
+- You should avoid using the `cmd` key. Just don't use it.
+- Try to pick a unique keybinding, something that you haven't already encountered in existing, popular third party packages.
+- If you expect to have a series of commands with keybindings, try taking the key-chord approach. For instance, start with `ctrl-x` and then a variety of keys (e.g. `1`, `2`, `3`, `4`) can follow for each of your series of commands.
+
+[Corey Johnson](https://github.com/probablycorey) reminds us of perhaps the best convention of all when it comes to keybindings,
+
+> When I'm writing a package I try and avoid creating a keybinding and just focus on the commands. If a user wants to use a keybinding instead of using the command palette they can set that up themselves.
+
+[source](http://discuss.atom.io/t/keymap-style-guide/4432)
 
 ### Checking For Clashes in Keybindings
 
