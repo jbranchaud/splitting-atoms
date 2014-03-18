@@ -42,3 +42,6 @@ When it comes to assigning bindings to your own packages:
 
 ### Checking For Clashes in Keybindings
 
+There is a handy package that ships with Atom, *Keybinding Resolver*, that allows you to check to what certain keybindings are resolving. And more importantly, it also tells you what commands are not being triggered because of conflicting bindings.
+
+You can open *Keybinding Resolver* with `cmd-.`. From there start tapping different keybindings to see where things stand. This is particularly useful for making sure your own packages aren't conflicting with core functionality or popular packages with important functionality.
