@@ -32,6 +32,7 @@ When it comes to assigning bindings to your own packages:
 - You should avoid using the `cmd` key. Just don't use it.
 - Try to pick a unique keybinding, something that you haven't already encountered in existing, popular third party packages.
 - If you expect to have a series of commands with keybindings, try taking the key-chord approach. For instance, start with `ctrl-x` and then a variety of keys (e.g. `1`, `2`, `3`, `4`) can follow for each of your series of commands.
+- Before settling on a particular keybinding, test it out with the *Keybinding Resolver* package to see if it is in direct conflict with anything that you obviously don't want to clash with.
 
 [Corey Johnson](https://github.com/probablycorey) reminds us of perhaps the best convention of all when it comes to keybindings,
 
@@ -41,4 +42,3 @@ When it comes to assigning bindings to your own packages:
 
 ### Checking For Clashes in Keybindings
 
-...
