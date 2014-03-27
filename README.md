@@ -66,12 +66,15 @@ We also use [Bower](http://bower.io/) for managing front-end dependencies. This 
 
 ### Running Locally
 
-Assuming you have satisfied the above dependencies, you should be ready to develop Splitting Atoms locally. If you haven't already, fork the repository and clone it onto your machine.
+Assuming you have satisfied the above dependencies, you should be ready to develop Splitting Atoms locally. If you haven't already, fork the repository and clone it onto your machine. Navigate to the Splitting Atoms directory and launch a Jekyll server:
 
     $ cd path/to/splitting-atoms
     $ jekyll serve --watch --baseurl=
 
-This will tell Jekyll to launch a server at the default port of `4000`. Open up `localhost:4000` in your favorite browser to see. The `--watch` flag tells Jekyll to keep an eye out for changes to the site and regenerate the site when changes do happen. The `--baseurl=` flag sets the configuration's `baseurl` to an empty string overriding that value in the `_config.yml` file which is set to a different value for deployment as a GitHub page.
+This will tell Jekyll to launch a server at the default port of `4000`. Open up `localhost:4000` in your favorite browser to see.
+
+- The `--watch` flag tells Jekyll to keep an eye out for changes to the site and regenerate the site when changes do happen.
+- The `--baseurl=` flag sets the configuration's `baseurl` to an empty string overriding that value in the `_config.yml` file which is set to a different value for deployment as a GitHub page.
 
 ## Splitting Atoms' Goals
 
