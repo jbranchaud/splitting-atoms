@@ -61,7 +61,6 @@ Splitting Atoms is a static site generated from Markdown and HTML files. The sit
 We also use [Bower](http://bower.io/) for managing front-end dependencies. This is an optional dependency for development because all front-end dependencies have been committed to the repository. However, if you plan to update or add bower packages, you will need [NPM]() and [Bower]().
 
 - If you don't already have them, [install node and NPM](http://www.joyent.com/blog/installing-node-and-npm/).
-
 - Then install bower, `npm install -g bower`.
 
 ### Running Locally
