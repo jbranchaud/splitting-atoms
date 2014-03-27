@@ -12,6 +12,7 @@ collection of tips and tricks for quickly taking advantage of Atom.
 - [Git + Fuzzy File Finder](#GitFuzzyFileFinder)
 
 ## <a name="FuzzyFileFinder" href="#FuzzyFileFinder">Fuzzy File Finder</a>
+
 Atom has a fuzzy file finder much like Sublime Text's, and is incredibly
 powerful. Simply type `⌘-T` or `⌘-P` to bring it up, and start searching for
 files or folders.
@@ -30,6 +31,7 @@ This will ignore any pattern that you have specified in your *Ignored Names*
 preference.
 
 ## <a name="GitFuzzyFileFinder" href="#GitFuzzyFileFinder">Git + Fuzzy File Finder</a>
+
 If you use Git, the fuzzy file finder can display any modified or untracked file
 in your project. It works pretty much like running `git status` and is useful
 for tracking the current state of your project. To trigger this, type
