@@ -8,8 +8,23 @@ collection of tips and tricks for quickly taking advantage of Atom.
 
 ## Contents
 
+- [Debugging Keybindings](#DebuggingKeybindings)
 - [Fuzzy File Finder](#FuzzyFileFinder)
 - [Git + Fuzzy File Finder](#GitFuzzyFileFinder)
+
+## <a name="DebuggingKeybindings" href="#DebuggingKeybindings">Debugging Keybindings</a>
+
+There are lots of keybindings and it can be hard to keep them all straight. Some are defined by packages that come with Atom, others by packages you have installed, and you may also be testing out a few of your own with a package you are currently developing. To quickly see what command is triggered by a particular keybinding as well as what commands are being inhibited, use the *Keybinding Resolver*.
+
+Activate the *Keybinding Resolver* with `Cmd-.`.
+
+A small window will display at the bottom of the editor informing you on each key press of the associated command.
+
+- Try pressing the command palette keybinding, `Cmd-shift-P`. It will resolve to the `command-palette:toggle` command.
+
+- Try pressing the *backspace* (or *delete*) button within an editor. It will resolve to `core:backspace`, but will also show commands that it takes precedence over.
+
+Any time you have questions about some keybindings, the *Keybinding Resolver* is a good place to start looking.
 
 ## <a name="FuzzyFileFinder" href="#FuzzyFileFinder">Fuzzy File Finder</a>
 
