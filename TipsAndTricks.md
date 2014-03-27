@@ -8,10 +8,11 @@ collection of tips and tricks for quickly taking advantage of Atom.
 
 ## Contents
 
+- [Debugging Keybindings](#DebuggingKeybindings)
 - [Fuzzy File Finder](#FuzzyFileFinder)
 - [Git + Fuzzy File Finder](#GitFuzzyFileFinder)
 
-## Debugging Keybindings
+## <a name="DebuggingKeybindings" href="#DebuggingKeybindings">Debugging Keybindings</a>
 
 There are lots of keybindings and it can be hard to keep them all straight. Some are defined by packages that come with Atom, others by packages you have installed, and you may also be testing out a few of your own with a package you are currently developing. To quickly see what command is triggered by a particular keybinding as well as what commands are being inhibited, use the *Keybinding Resolver*.
 
