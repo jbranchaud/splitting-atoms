@@ -8,11 +8,12 @@ collection of tips and tricks for quickly taking advantage of Atom.
 
 ## Contents
 
+- [Keybinding Precedence](#KeybindingPrecedence)
 - [Debugging Keybindings](#DebuggingKeybindings)
 - [Fuzzy File Finder](#FuzzyFileFinder)
 - [Git + Fuzzy File Finder](#GitFuzzyFileFinder)
 
-## Keybinding Precedence
+## <a name="#KeybindingPrecedence" href="#KeybindingPrecedence">Keybinding Precedence</a>
 
 When adding custom keybindings to your own configuration or including
 keybindings in the package you are creating, it is helpful to understand the
@@ -28,8 +29,8 @@ As for the first, the last keybinding loaded wins. If two packages register
 keybinding of the first package will be registered and subsequently
 inhibited by the same keybinding registered by the second package. If
 keybindings for core or third-party packages aren't working as expected,
-this is likely the culprit. See <a name="DebuggingKeybindings"
-href="#DebuggingKeybindings">Debugging Keybindings</a> for hints on how to
+this is likely the culprit. See
+<a href="#DebuggingKeybindings">Debugging Keybindings</a> for hints on how to
 hunt this down. Also, custom keybindings declared in your configuration, in
 `keymap.cson`, will take precedence over everything.
 
