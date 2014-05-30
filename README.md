@@ -16,6 +16,9 @@ To find out more about Atom from the team itself, read
 [Introducing Atom](http://blog.atom.io/2014/02/26/introducing-atom.html) and
 [The Nucleus of Atom](http://blog.atom.io/2014/02/26/the-nucleus-of-atom.html).
 
+*Atom Core is now completely open-source. Check out the [source
+code](https://github.com/atom/atom) and consider contributing.*
+
 ## Contributing to Splitting Atoms
 
 There are a number of ways to contribute to this project:
