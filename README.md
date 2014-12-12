@@ -1,3 +1,8 @@
+*Things here have gotten a bit behind. I could use some real help to keep
+pushing this guide forward. If you'd like to help with the content and the
+direction of Splitting Atoms, say the word and we can discuss how to move
+forward.*
+
 # Splitting Atoms
 
 a community-built guide to hacking on the [Atom](https://atom.io) editor
